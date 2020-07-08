@@ -1,11 +1,12 @@
 // IMPORT MODULES under test here:
 // import example from '../example.js';
-
+import compareNumbers from '../numbers.js';
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('if the value is 0 return true', (expect) => {
     //Arrange
     // Set up your arguments and expectations
+    const correctNum = 0
     const expected = true;
     
     //Act 
