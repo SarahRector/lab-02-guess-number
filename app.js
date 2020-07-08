@@ -7,7 +7,6 @@ const triesLeft = document.getElementById('tries');
 const guessRange = document.getElementById('high-or-low');
 const winLose = document.getElementById('win-or-lose');
 
-console.log(myButton, triesLeft, guessRange, winLose);
 // initialize state
 // initialize random number generator
 const correctNumber = Math.ceil(Math.random() * 20);
