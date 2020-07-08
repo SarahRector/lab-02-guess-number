@@ -14,16 +14,20 @@
 
 <body>
     <header>
-        <h2>Lucky Lobster's Guess-A-Number!</h2>
+        
     </header>
     <main>
-        <h1>Guessing Game</h1>
-        <ol>
-            <li>Lucky Lobster is thinking of a number between 1-20</li>
-            <li>Can you guess what it is? Enter your guess in the box below!</li>
-            <li>You have four guesses!</li>
-            <li>Good luck!</li>
-        </ol>
+        <h1 style="font-size: x-large;">Lucky Lobster's Guess-A-Number!</h1>
+        <br>
+        <span id = 'rules'>
+            <ol style="padding-left: 20px;" style="padding-right: 20px;">
+                <li>Lucky Lobster is thinking of a number between 1-20</li>
+                <li>Can you guess what it is? Enter your guess in the box below!</li>
+                <li>You have four guesses!</li>
+                <li>Good luck!</li>
+            </ol>
+        </span>
+        <br>
         <input  type = 'number' min = '1' max = '20' class = 'user-input' id = 'input'/>
         <button id = 'submit-button'>Submit your guess</button>
         <br>
@@ -33,7 +37,7 @@
             <span id = 'high-or-low'></span>
         </div>
         <span id = 'results'></span>
-            <div id = 'win-or-lose'>win or lose</div>
+            <div id = 'win-or-lose'></div>
         </div>
         
     </main>
