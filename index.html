@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Lucky Lobster's Guess-A-Number!</title>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <h1 style="font-size: x-large;">Lucky Lobster's Guess-A-Number!</h1>
+        <br>
+        <span id = 'rules'>
+            <ol style="padding-left: 20px;" style="padding-right: 20px;">
+                <li>Lucky Lobster is thinking of a number between 1-20</li>
+                <li>Can you guess what it is? Enter your guess in the box below!</li>
+                <li>You have four guesses!</li>
+                <li>Good luck!</li>
+            </ol>
+        </span>
+        <br>
+        <input  type = 'number' min = '1' max = '20' class = 'user-input' id = 'input'/>
+        <button id = 'submit-button'>Submit your guess</button>
+        <br>
+        <div>
+            <span class = 'tries-left' id = 'tries'>4 tries remaining</span>
+            <br>
+            <span id = 'high-or-low'></span>
+        </div>
+        <span id = 'results'></span>
+            <div id = 'win-or-lose'></div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
