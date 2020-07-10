@@ -32,11 +32,10 @@ body {
     background-image: url(../assets/lobster4.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     display: grid;
     justify-items: center;
-    
-    height: 600px;
-    width: 800px;
+    align-items: center;
 }
 
 main {
@@ -46,6 +45,8 @@ main {
     margin-bottom: calc(var(--footer-height));
     border: solid black 2px;
     background-color: var(--color2);
+    padding: 50px;
+    font-size: larger;
     
 }
 
@@ -80,6 +81,14 @@ footer {
     box-shadow: var(--shadow);
 }
   
-  
+button {
+    cursor: pointer;
+    font-size: larger;
+    padding: 5px;
+    width: 250px;
+} 
 
-  
+input {
+    font-size: larger;
+    width: 250px;
+}
